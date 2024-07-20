@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["mystyle.module.css"],"sourcesContent":[".bigblue {\r\n    color: DodgerBlue;\r\n    padding: 40px;\r\n    font-family: Sans-Serif;\r\n    text-align: center;\r\n  }"],"names":[],"version":3,"file":"index.cdbc6837.css.map","sourceRoot":"/__parcel_source_root/"}

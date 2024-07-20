@@ -1,17 +1,25 @@
-import React from "react";
-import  ReactDOM  from "react-dom/client";
-import './style.css';
-import Header from "./component/Header";
-import Body from "./component/Body";
-import Footer from "./component/Footer";
-const App=()=>{
-    return(
-        <div className="app">
-            {/* <Header/>
-            <Body/>
-            <Footer/> */}
-        </div>
-    )
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
-const root =ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+
+export default App;
